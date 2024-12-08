@@ -9,16 +9,16 @@ export function ItemCard({ item }: { item: Types.Item }) {
         <CardTitle className="text-lg">{item.name}</CardTitle>
       </CardHeader>
       <CardContent className="flex-grow">
-        {item.mediaDetails?.image?.url && (
+        {
           <div className="relative w-full h-48 mb-4">
             <Image
-              src={item.mediaDetails.image.url}
+              src={item.imageUrl}
               alt={item.name}
               fill
               className="object-cover rounded-md"
             />
           </div>
-        )}
+        }
         <p className="text-sm text-muted-foreground mb-2">{item.description}</p>
         <div className="flex flex-wrap gap-2">
           {item.attributes.map((attr, index) => (
