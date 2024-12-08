@@ -1,0 +1,261 @@
+{
+  "collectionId": "guns-collection-2024",
+  "items": [
+    {
+      "name": "Desert Eagle",
+      "description": "A powerful semi-automatic handgun known for its impressive stopping power and iconic design.",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "Handgun",
+          "displayType": "string"
+        },
+        {
+          "name": "Rarity",
+          "value": "Rare",
+          "displayType": "string"
+        },
+        {
+          "name": "Damage",
+          "value": 85,
+          "displayType": "number"
+        },
+        {
+          "name": "ReleaseDate",
+          "value": "2024-03-15",
+          "displayType": "date"
+        }
+      ],
+      "mediaDetails": {
+        "image": {
+          "url": "https://res.cloudinary.com/dne4dlkvo/image/upload/v1733612102/dessert_eagle_krxxo5.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "AK-47",
+      "description": "The legendary assault rifle known for its reliability and widespread use across the globe.",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "Assault Rifle",
+          "displayType": "string"
+        },
+        {
+          "name": "Rarity",
+          "value": "Common",
+          "displayType": "string"
+        },
+        {
+          "name": "Damage",
+          "value": 70,
+          "displayType": "number"
+        },
+        {
+          "name": "ReleaseDate",
+          "value": "2024-03-15",
+          "displayType": "date"
+        }
+      ],
+      "mediaDetails": {
+        "image": {
+          "url": "https://res.cloudinary.com/dne4dlkvo/image/upload/v1733612102/AK47_xgh8fj.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "M16",
+      "description": "A military-grade assault rifle known for its accuracy and versatility.",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "Assault Rifle",
+          "displayType": "string"
+        },
+        {
+          "name": "Rarity",
+          "value": "Uncommon",
+          "displayType": "string"
+        },
+        {
+          "name": "Damage",
+          "value": 65,
+          "displayType": "number"
+        },
+        {
+          "name": "ReleaseDate",
+          "value": "2024-03-15",
+          "displayType": "date"
+        }
+      ],
+      "mediaDetails": {
+        "image": {
+          "url": "https://res.cloudinary.com/dne4dlkvo/image/upload/v1733612102/M16_nsp1ew.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Golden Glock",
+      "description": "A luxurious version of the reliable Glock pistol, plated in gold.",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "Handgun",
+          "displayType": "string"
+        },
+        {
+          "name": "Rarity",
+          "value": "Legendary",
+          "displayType": "string"
+        },
+        {
+          "name": "Damage",
+          "value": 55,
+          "displayType": "number"
+        },
+        {
+          "name": "ReleaseDate",
+          "value": "2024-03-15",
+          "displayType": "date"
+        }
+      ],
+      "mediaDetails": {
+        "image": {
+          "url": "https://res.cloudinary.com/dne4dlkvo/image/upload/v1733612102/Glock_dlz6x3.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Shotgun",
+      "description": "A powerful close-range weapon with devastating spread damage.",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "Shotgun",
+          "displayType": "string"
+        },
+        {
+          "name": "Rarity",
+          "value": "Common",
+          "displayType": "string"
+        },
+        {
+          "name": "Damage",
+          "value": 90,
+          "displayType": "number"
+        },
+        {
+          "name": "ReleaseDate",
+          "value": "2024-03-15",
+          "displayType": "date"
+        }
+      ],
+      "mediaDetails": {
+        "image": {
+          "url": "https://res.cloudinary.com/dne4dlkvo/image/upload/v1733612102/shotgun_gahg3b.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Sniper Rifle",
+      "description": "A high-precision long-range rifle for tactical operations.",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "Sniper",
+          "displayType": "string"
+        },
+        {
+          "name": "Rarity",
+          "value": "Epic",
+          "displayType": "string"
+        },
+        {
+          "name": "Damage",
+          "value": 100,
+          "displayType": "number"
+        },
+        {
+          "name": "ReleaseDate",
+          "value": "2024-03-15",
+          "displayType": "date"
+        }
+      ],
+      "mediaDetails": {
+        "image": {
+          "url": "https://res.cloudinary.com/dne4dlkvo/image/upload/v1733612103/Sniper_rifle_mv6l8u.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "RPG",
+      "description": "A powerful rocket launcher capable of destroying vehicles and structures.",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "Explosive",
+          "displayType": "string"
+        },
+        {
+          "name": "Rarity",
+          "value": "Epic",
+          "displayType": "string"
+        },
+        {
+          "name": "Damage",
+          "value": 150,
+          "displayType": "number"
+        },
+        {
+          "name": "ReleaseDate",
+          "value": "2024-03-15",
+          "displayType": "date"
+        }
+      ],
+      "mediaDetails": {
+        "image": {
+          "url": "https://res.cloudinary.com/dne4dlkvo/image/upload/v1733612102/RPG_rxmkde.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "SMG",
+      "description": "A rapid-fire submachine gun perfect for close to medium range combat.",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "Submachine Gun",
+          "displayType": "string"
+        },
+        {
+          "name": "Rarity",
+          "value": "Uncommon",
+          "displayType": "string"
+        },
+        {
+          "name": "Damage",
+          "value": 45,
+          "displayType": "number"
+        },
+        {
+          "name": "ReleaseDate",
+          "value": "2024-03-15",
+          "displayType": "date"
+        }
+      ],
+      "mediaDetails": {
+        "image": {
+          "url": "https://res.cloudinary.com/dne4dlkvo/image/upload/v1733612102/SMG_v5ri4s.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    }
+  ]
+} 

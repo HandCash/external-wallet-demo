@@ -3,19 +3,21 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
-import { Menu, X } from 'lucide-react'
+import { Menu, X, Wallet } from 'lucide-react'
 import { UserProfileDropdown } from './UserProfileDropdown'
+import { useWallet } from '@/app/context/WalletContext'
 
 const NavBar: React.FC<{ userEmail: string }> = ({ userEmail }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const { isWalletConnected } = useWallet()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
   const navItems = [
-    { label: 'Games', href: '/' },
     { label: 'Profile', href: '/profile' },
+    { label: 'Inventory', href: '/inventory' },
   ]
 
   return (
@@ -37,6 +39,14 @@ const NavBar: React.FC<{ userEmail: string }> = ({ userEmail }) => {
                 {item.label}
               </Link>
             ))}
+            {!isWalletConnected && (
+              <Link href="/profile">
+                <Button variant="default" size="sm" className="flex items-center gap-2">
+                  <Wallet className="h-4 w-4" />
+                  Connect Wallet
+                </Button>
+              </Link>
+            )}
             <UserProfileDropdown email={userEmail} />
           </div>
           <div className="md:hidden flex items-center">
@@ -60,6 +70,14 @@ const NavBar: React.FC<{ userEmail: string }> = ({ userEmail }) => {
                 {item.label}
               </Link>
             ))}
+            {!isWalletConnected && (
+              <Link href="/profile" className="block px-3 py-2">
+                <Button variant="default" size="sm" className="flex items-center gap-2 w-full">
+                  <Wallet className="h-4 w-4" />
+                  Connect Wallet
+                </Button>
+              </Link>
+            )}
             <div className="px-3 py-2">
               <UserProfileDropdown email={userEmail} />
             </div>

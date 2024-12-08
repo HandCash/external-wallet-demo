@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "create-collection": "npm run build:utils && node dist/utils/createCollection.js",
+    "get-order": "npm run build:utils && node dist/utils/getOrder.js",
+    "build:utils": "tsc --project tsconfig.build.json"
   },
   "dependencies": {
     "@handcash/handcash-sdk": "^0.0.2-alpha.6",
@@ -24,8 +27,9 @@
     "clsx": "^2.1.1",
     "commander": "^12.1.0",
     "crypto-js": "^4.2.0",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "drizzle-orm": "^0.33.0",
+    "framer-motion": "^11.13.1",
     "jose": "^5.8.0",
     "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
@@ -38,11 +42,13 @@
     "react-confetti": "^6.1.0",
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.4.0",
     "react-qr-code": "^2.0.15",
     "react-toastify": "^10.0.5",
     "sqlite": "^5.1.1",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
+    "winston": "^3.17.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
